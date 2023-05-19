@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_chanining">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collection/ArrayListLes.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_List">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Chanining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Chanining.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
       <workItem from="1684413431205" duration="1541000" />
       <workItem from="1684415624793" duration="352000" />
       <workItem from="1684477178452" duration="1737000" />
-      <workItem from="1684482152764" duration="849000" />
+      <workItem from="1684482152764" duration="3735000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -97,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684415937980</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add_List">
+      <created>1684483118151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684483118151</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add_chanining" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_chanining" />
+    <MESSAGE value="add_List" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_List" />
   </component>
 </project>
