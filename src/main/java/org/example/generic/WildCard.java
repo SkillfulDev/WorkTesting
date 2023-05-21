@@ -6,13 +6,9 @@ import java.util.List;
 public class WildCard {
     public static void main(String[] args) {
 
-        List<Integer> list=new ArrayList<>();
-        list.add(40);
-        list.add(4);
-        list.add(20);
-        list.add(998);
-        list.add(230);
-        list.add(20);
+        List<Byte> list=new ArrayList<>();
+
+
 
         System.out.println(sumList(list));
 
