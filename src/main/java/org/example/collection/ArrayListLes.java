@@ -13,6 +13,7 @@ public class ArrayListLes {
             names.add("this"+i);
 
         }
+        String remove = names.remove(3);
         long endTime1 = System.currentTimeMillis();
         System.out.println(endTime1 - startTime1);
 
