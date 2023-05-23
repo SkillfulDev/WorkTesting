@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_List_Method">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Sorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Sorted.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_List_Method_addAll">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collection/ArrayListMethod1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +45,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayMethod">
+  <component name="RunManager" selected="Application.ArrayListMethod1">
     <configuration name="ArrayListLes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.collection.ArrayListLes" />
+      <module name="WorkTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListMethod1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collection.ArrayListMethod1" />
       <module name="WorkTesting" />
       <extension name="coverage">
         <pattern>
@@ -99,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListMethod1" />
         <item itemvalue="Application.ArrayMethod" />
         <item itemvalue="Application.Sorted" />
         <item itemvalue="Application.WildCard" />
@@ -121,6 +136,7 @@
       <workItem from="1684477178452" duration="1737000" />
       <workItem from="1684482152764" duration="3735000" />
       <workItem from="1684667241854" duration="2820000" />
+      <workItem from="1684823848972" duration="3057000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -150,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684758507567</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add_List_Method_addAll">
+      <created>1684759698922</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684759698922</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +195,7 @@
     <MESSAGE value="add_List" />
     <MESSAGE value="add_WildCard" />
     <MESSAGE value="add_List_Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_List_Method" />
+    <MESSAGE value="add_List_Method_addAll" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_List_Method_addAll" />
   </component>
 </project>
