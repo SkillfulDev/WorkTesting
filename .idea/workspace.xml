@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_List_Method_addAll">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collection/ArrayListMethod1.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_List_Method_add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayListMethod1">
+  <component name="RunManager" selected="Application.ArrayMethod">
     <configuration name="ArrayListLes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.collection.ArrayListLes" />
       <module name="WorkTesting" />
@@ -113,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayListMethod1" />
         <item itemvalue="Application.ArrayMethod" />
+        <item itemvalue="Application.ArrayListMethod1" />
         <item itemvalue="Application.Sorted" />
         <item itemvalue="Application.WildCard" />
         <item itemvalue="Application.ArrayListLes" />
@@ -136,7 +135,7 @@
       <workItem from="1684477178452" duration="1737000" />
       <workItem from="1684482152764" duration="3735000" />
       <workItem from="1684667241854" duration="2820000" />
-      <workItem from="1684823848972" duration="3057000" />
+      <workItem from="1684823848972" duration="3839000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -173,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684759698922</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add_List_Method_add">
+      <created>1684845663091</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684845663091</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +202,7 @@
     <MESSAGE value="add_WildCard" />
     <MESSAGE value="add_List_Method" />
     <MESSAGE value="add_List_Method_addAll" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_List_Method_addAll" />
+    <MESSAGE value="add_List_Method_add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_List_Method_add" />
   </component>
 </project>
