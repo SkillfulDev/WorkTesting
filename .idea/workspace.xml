@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_List_Immutable">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collection/IteratorEx.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_List_Iterator">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collection/LinkedListEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/comparation/ComparableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/StudentClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +53,7 @@
       <recent name="org.example.collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IteratorEx">
+  <component name="RunManager" selected="Application.ComparableTest">
     <configuration name="ArrayListMethod1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.collection.ArrayListMethod1" />
       <module name="WorkTesting" />
@@ -77,6 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ComparableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.comparation.ComparableTest" />
+      <module name="WorkTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.comparation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IteratorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.collection.IteratorEx" />
       <module name="WorkTesting" />
@@ -90,25 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Sorted" />
+    <configuration name="LinkedListEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collection.LinkedListEx" />
       <module name="WorkTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WildCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.generic.WildCard" />
-      <module name="WorkTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.generic.*" />
+          <option name="PATTERN" value="org.example.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparableTest" />
+        <item itemvalue="Application.LinkedListEx" />
         <item itemvalue="Application.IteratorEx" />
         <item itemvalue="Application.ArrayMethod" />
         <item itemvalue="Application.ArrayListMethod1" />
-        <item itemvalue="Application.Sorted" />
-        <item itemvalue="Application.WildCard" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +145,7 @@
       <workItem from="1684482152764" duration="3735000" />
       <workItem from="1684667241854" duration="2820000" />
       <workItem from="1684823848972" duration="3839000" />
-      <workItem from="1684910267274" duration="1400000" />
+      <workItem from="1684910267274" duration="6377000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -193,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684910538854</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add_List_Iterator">
+      <created>1684913592837</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684913592837</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +228,7 @@
     <MESSAGE value="add_List_Method_addAll" />
     <MESSAGE value="add_List_Method_add" />
     <MESSAGE value="add_List_Immutable" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_List_Immutable" />
+    <MESSAGE value="add_List_Iterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_List_Iterator" />
   </component>
 </project>
