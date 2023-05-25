@@ -4,6 +4,7 @@ import lombok.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class ComparableTest {
@@ -13,13 +14,11 @@ public class ComparableTest {
                 Employee.builder().id(300).name("Kate").surname("Smirnova").salary(5000).build(),
                 Employee.builder().id(200).name("Sam").surname("Smith").salary(9000).build()));
 
-        System.out.println(employees);
-        Collections.sort(employees);
-
+        employees.stream().sorted(Comparator.comparing(Employee::getName)).th
+//        System.out.println(employees);
 
     }
-
-}
+ }
 
 @AllArgsConstructor
 @Setter
