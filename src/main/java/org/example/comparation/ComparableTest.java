@@ -16,7 +16,7 @@ public class ComparableTest {
 
 
 
-     Comparable(Employee.builder().id(1000).name("Kate").surname("Tregulov").salary(1000).build());
+
         employees.stream().sorted(Comparator.comparing(Employee::getName)
                 .thenComparing(Employee::getId))
                 .forEach(System.out::println);
