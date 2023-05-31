@@ -15,21 +15,21 @@ public class ComparableTest {
                 Employee.builder().id(200).name("Sam").surname("Smith").salary(9000).build()));
 
 
-//Collections.sort();
+
 
         employees.stream().sorted(Comparator.comparing(Employee::getName)
-                        .thenComparing(Employee::getId))
+                .thenComparing(Employee::getId))
                 .forEach(System.out::println);
 
     }
-}
+ }
 
 @AllArgsConstructor
 @Setter
 @Getter
 @ToString
 @Builder
-class Employee implements Comparable<Employee> {
+class Employee implements Comparable<Employee>{
     int id;
     String name;
     String surname;
@@ -38,7 +38,7 @@ class Employee implements Comparable<Employee> {
     @Override
     public int compareTo(Employee o) {
 
-        return this.getId() - o.getId();
+        return this.getId()-o.getId();
     }
 
 
