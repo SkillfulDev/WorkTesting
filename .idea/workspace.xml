@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_BinarySearch">
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_FixMain">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/collection/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collection/BinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +146,7 @@
       <workItem from="1684910267274" duration="6648000" />
       <workItem from="1685002907415" duration="7073000" />
       <workItem from="1685081573074" duration="2900000" />
-      <workItem from="1685467575857" duration="676000" />
+      <workItem from="1685467575857" duration="1598000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -241,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685382084247</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add_FixMain">
+      <created>1685469601393</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685469601393</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +276,7 @@
     <MESSAGE value="add_Middle_Comparable" />
     <MESSAGE value="add_Middle_Comparable1" />
     <MESSAGE value="add_BinarySearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_BinarySearch" />
+    <MESSAGE value="add_FixMain" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_FixMain" />
   </component>
 </project>
