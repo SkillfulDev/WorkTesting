@@ -8,16 +8,22 @@ import java.util.Objects;
 
 public class HashMapEx {
     public static void main(String[] args) {
-        Map<Student,Double> map = new HashMap<>();
-        map.put(Student.builder().name("Ivan").surname("Grozniy").course(5).build(),5.5);
-        map.put(Student.builder().name("Svetlana").surname("Marchenko").course(4).build(),5.9);
-        map.put(Student.builder().name("Oleg").surname("Potapov").course(3).build(),4.5);
-        map.put(Student.builder().name("Kristina").surname("Volk").course(5).build(),6.5);
+        Map<Student, Double> map = new HashMap<>();
+        map.put(Student.builder().name("Ivan").surname("Grozniy").course(5).build(), 5.5);
+        map.put(Student.builder().name("Svetlana").surname("Marchenko").course(4).build(), 5.9);
+        map.put(Student.builder().name("Oleg").surname("Potapov").course(3).build(), 4.5);
+        map.put(Student.builder().name("Kristina").surname("Volk").course(5).build(), 6.5);
+        Student st = Student.builder().name("Ivan").surname("Grozniy").course(5).build();
+
+        System.out.println(map.containsKey(st));
+
+
         System.out.println(map);
 
     }
 
 }
+
 @Builder
 @AllArgsConstructor
 @Setter
