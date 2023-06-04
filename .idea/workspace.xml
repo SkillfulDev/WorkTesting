@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_FixMain">
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_CorrectReduce">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collection/map_interface/HashMapEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,20 +52,7 @@
       <recent name="org.example.collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
-    <configuration name="ArrayMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.collection.ArrayMethod" />
-      <module name="WorkTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HashMapEx">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.collection.BinarySearch" />
       <module name="WorkTesting" />
@@ -84,6 +72,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.comparation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collection.map_interface.HashMapEx" />
+      <module name="WorkTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.collection.map_interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapEx" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.ComparableTest" />
         <item itemvalue="Application.LinkedListEx" />
         <item itemvalue="Application.IteratorEx" />
-        <item itemvalue="Application.ArrayMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +148,8 @@
       <workItem from="1685002907415" duration="7073000" />
       <workItem from="1685081573074" duration="2900000" />
       <workItem from="1685467575857" duration="1598000" />
+      <workItem from="1685641452897" duration="106000" />
+      <workItem from="1685884894956" duration="1319000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -246,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685469601393</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add_CorrectReduce">
+      <created>1685641484355</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685641484355</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +287,7 @@
     <MESSAGE value="add_Middle_Comparable1" />
     <MESSAGE value="add_BinarySearch" />
     <MESSAGE value="add_FixMain" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_FixMain" />
+    <MESSAGE value="add_CorrectReduce" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_CorrectReduce" />
   </component>
 </project>
