@@ -1,18 +1,14 @@
-package org.example.collection.mapinterface;
+package org.example.collection.map_interface;
 
-import org.example.model.Student;
 import org.example.model.StudentClass;
 
-
-import java.util.Comparator;
+import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.TreeMap;
 
-public class TreeMapEx {
+public class LinkedHashMapEx {
     public static void main(String[] args) {
 
-//        Map<StudentClass,Integer> students1 = new TreeMap<>();
-        Map<StudentClass,Integer> students = new TreeMap<>(Comparator.comparing(StudentClass::getName));
+        Map<StudentClass,Integer> students=new LinkedHashMap<>();
         students.put(StudentClass.builder().age(18).name("Sam").build(),1);
         students.put(StudentClass.builder().age(21).name("Andrew").build(),4);
         students.put(StudentClass.builder().age(23).name("Anna").build(),15);
@@ -21,10 +17,5 @@ public class TreeMapEx {
 
 
         System.out.println(students);
-
-//        System.out.println(students);
-
-
-
     }
 }
