@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_TreeMap">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collection/map_interface/LinkedHashMapEx.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_LinkedHashMap">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collection/map_interface/HashSetEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/collection/LinkedListEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collection/LinkedListEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/collection/mapinterface/TreeMapEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collection/mapinterface/TreeMapEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/StudentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/StudentClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,28 +35,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Administrator/IdeaProjects/WorkTesting",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/IdeaProjects/WorkTesting&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedHashMapEx">
+  <component name="RunManager" selected="Application.HashSetEx">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.collection.BinarySearch" />
       <module name="WorkTesting" />
@@ -73,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.comparation.ComparableTest" />
+    <configuration name="HashMapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collection.mapinterface.HashMapEx" />
       <module name="WorkTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.comparation.*" />
+          <option name="PATTERN" value="org.example.collection.mapinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.collection.mapinterface.HashMapEx" />
+    <configuration name="HashSetEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collection.map_interface.HashSetEx" />
       <module name="WorkTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.collection.mapinterface.*" />
+          <option name="PATTERN" value="org.example.collection.map_interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashSetEx" />
         <item itemvalue="Application.LinkedHashMapEx" />
         <item itemvalue="Application.TreeMapEx" />
         <item itemvalue="Application.HashMapEx" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.ComparableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +156,8 @@
       <workItem from="1686303507318" duration="2324000" />
       <workItem from="1686564226258" duration="2934000" />
       <workItem from="1686638008447" duration="1646000" />
-      <workItem from="1686729870301" duration="7175000" />
+      <workItem from="1686729870301" duration="7615000" />
+      <workItem from="1686825104872" duration="1456000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -280,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686576396467</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add_LinkedHashMap">
+      <created>1686749238293</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686749238293</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +319,7 @@
     <MESSAGE value="add_Stack" />
     <MESSAGE value="add_EntrySet" />
     <MESSAGE value="add_TreeMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_TreeMap" />
+    <MESSAGE value="add_LinkedHashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_LinkedHashMap" />
   </component>
 </project>
