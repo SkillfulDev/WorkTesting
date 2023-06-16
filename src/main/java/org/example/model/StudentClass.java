@@ -9,12 +9,8 @@ import lombok.*;
 @ToString
 public class StudentClass {
     String name;
-    //    char sex;
+
     int age;
-
-
-//    int course;
-//    double avGrade;
 
 
 }

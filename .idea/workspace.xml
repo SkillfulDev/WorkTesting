@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_LinkedHashMap">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collection/map_interface/HashSetEx.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_HashSet">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collection/set/TreeSetEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/StudentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/StudentClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +57,7 @@
       <recent name="org.example.collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashSetEx">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.collection.BinarySearch" />
-      <module name="WorkTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TreeSetEx">
     <configuration name="HashMapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.collection.mapinterface.HashMapEx" />
       <module name="WorkTesting" />
@@ -122,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeSetEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collection.set.TreeSetEx" />
+      <module name="WorkTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.collection.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeSetEx" />
         <item itemvalue="Application.HashSetEx" />
         <item itemvalue="Application.LinkedHashMapEx" />
         <item itemvalue="Application.TreeMapEx" />
         <item itemvalue="Application.HashMapEx" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +158,8 @@
       <workItem from="1686564226258" duration="2934000" />
       <workItem from="1686638008447" duration="1646000" />
       <workItem from="1686729870301" duration="7615000" />
-      <workItem from="1686825104872" duration="1456000" />
+      <workItem from="1686825104872" duration="2135000" />
+      <workItem from="1686898691711" duration="2088000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -285,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686749238293</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add_HashSet">
+      <created>1686832957439</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686832957439</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +329,7 @@
     <MESSAGE value="add_EntrySet" />
     <MESSAGE value="add_TreeMap" />
     <MESSAGE value="add_LinkedHashMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_LinkedHashMap" />
+    <MESSAGE value="add_HashSet" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_HashSet" />
   </component>
 </project>
