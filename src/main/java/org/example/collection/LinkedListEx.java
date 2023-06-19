@@ -10,6 +10,7 @@ import java.util.ListIterator;
 
 public class LinkedListEx {
     public static void main(String[] args) {
+        LinkedList<StudentClass> list = new LinkedList<>();
 //        LinkedList<StudentClass> students = new LinkedList<>(List.of(
 //                (StudentClass.builder().name("Andrew").sex('m').avGrade(5.5)
 //                        .course(5).age(23).build()),
