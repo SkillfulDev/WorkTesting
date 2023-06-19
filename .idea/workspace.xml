@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_TreeSet">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/static_nested_class/Car.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_NestedClass">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/static_nested_class/InnerClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/collection/LinkedListEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collection/LinkedListEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/StudentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/StudentClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/static_nested_class/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/static_nested_class/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +163,7 @@
       <workItem from="1686729870301" duration="7615000" />
       <workItem from="1686825104872" duration="2135000" />
       <workItem from="1686898691711" duration="8682000" />
-      <workItem from="1687170671372" duration="1897000" />
+      <workItem from="1687170671372" duration="5845000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -306,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686901050310</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add_NestedClass">
+      <created>1687175112314</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1687175112314</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +349,8 @@
     <MESSAGE value="add_LinkedHashMap" />
     <MESSAGE value="add_HashSet" />
     <MESSAGE value="add_TreeSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_TreeSet" />
+    <MESSAGE value="add_NestedClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_NestedClass" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
