@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_NestedClass">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/static_nested_class/InnerClass.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_InnerClass">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/static_nested_class/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/static_nested_class/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/static_nested_class/InnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/static_nested_class/InnerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +162,8 @@
       <workItem from="1686729870301" duration="7615000" />
       <workItem from="1686825104872" duration="2135000" />
       <workItem from="1686898691711" duration="8682000" />
-      <workItem from="1687170671372" duration="5845000" />
+      <workItem from="1687170671372" duration="6193000" />
+      <workItem from="1687244446763" duration="3968000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -312,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687175112314</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add_InnerClass">
+      <created>1687181394070</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1687181394070</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +357,8 @@
     <MESSAGE value="add_HashSet" />
     <MESSAGE value="add_TreeSet" />
     <MESSAGE value="add_NestedClass" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_NestedClass" />
+    <MESSAGE value="add_InnerClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_InnerClass" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

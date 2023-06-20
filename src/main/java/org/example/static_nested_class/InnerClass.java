@@ -34,7 +34,9 @@ class Test {
         InnerClass innerClass = new InnerClass();
 
 
+        innerClass = new InnerClass(12,"ssd",innerClass.new Engine(23));
 
+        System.out.println(innerClass);
 
 
     }
