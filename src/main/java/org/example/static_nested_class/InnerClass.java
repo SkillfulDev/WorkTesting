@@ -31,12 +31,16 @@ public class InnerClass {
 
 class Test {
     public static void main(String[] args) {
-        InnerClass innerClass = new InnerClass();
+       double a = 18.7;
+       double b = 18.7;
 
+        System.out.println(a/b);
+       if (a%b==0){
+           System.out.println("true");
+       }else{
+           System.out.println("false");
+       }
 
-        innerClass = new InnerClass(12,"ssd",innerClass.new Engine(23));
-
-        System.out.println(innerClass);
 
 
     }
