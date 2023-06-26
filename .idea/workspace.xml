@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_Function">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stream/FilterEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stream/MapEx.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_reduce">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Chanining.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Reduce.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Sorted.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lambda/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lambda/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/StudentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/StudentClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stream/FilterEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stream/FilterEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stream/MapEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stream/MapEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
       <recent name="org.example.collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FilterEx">
+  <component name="RunManager" selected="Application.MapEx">
     <configuration name="FilterEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.stream.FilterEx" />
       <module name="WorkTesting" />
@@ -137,8 +134,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FilterEx" />
         <item itemvalue="Application.MapEx" />
+        <item itemvalue="Application.FilterEx" />
         <item itemvalue="Application.org.example.lambda.Test" />
         <item itemvalue="Application.LambdaEx" />
         <item itemvalue="Application.Test" />
@@ -182,7 +179,7 @@
       <workItem from="1687354460656" duration="69000" />
       <workItem from="1687414082029" duration="921000" />
       <workItem from="1687499228405" duration="12425000" />
-      <workItem from="1687765598880" duration="2597000" />
+      <workItem from="1687765598880" duration="8440000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -368,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687515033237</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add_reduce">
+      <option name="closed" value="true" />
+      <created>1687768792877</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1687768792877</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +391,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add_chanining" />
     <MESSAGE value="add_List" />
     <MESSAGE value="add_WildCard" />
     <MESSAGE value="add_List_Method" />
@@ -411,7 +415,8 @@
     <MESSAGE value="add_Lambda" />
     <MESSAGE value="add_LambdaNew" />
     <MESSAGE value="add_Function" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_Function" />
+    <MESSAGE value="add_reduce" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_reduce" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

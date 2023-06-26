@@ -1,16 +1,33 @@
 package org.example.stream;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.OptionalInt;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+import java.util.*;
 
 public class FilterEx {
     public static void main(String[] args) {
-        long [] numbers = {1,23,4,40,65,42,34,14,1,34,15,425,2};
+        int[] numbers = {3,8,1,5,9,12,4,21,81,7,18};
 
- long result = Arrays.stream(numbers).reduce((res, el)->res*el).getAsLong();
-
+        int result = Arrays.stream(numbers).filter(el -> el % 2 != 0)
+                .map(el -> el % 3 == 0 ? el /= 3 : el )
+                .reduce((temp, el) -> temp += el).getAsInt();
         System.out.println(result);
+    }
+}
+
+@ToString
+@Getter
+@Setter
+@Builder
+class Stud implements Comparable<Stud> {
+    int age;
+    String name;
+
+    @Override
+    public int compareTo(Stud o2) {
+        return this.getAge() - o2.getAge();
     }
 }
