@@ -2,11 +2,9 @@ package org.example.stream;
 
 import lombok.*;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class MapEx {
     public static void main(String[] args) {
@@ -18,12 +16,13 @@ public class MapEx {
                         , Student.builder().name("antonny").age(28).sex('m').build()
                         , Student.builder().name("rozy").age(21).sex('f').build()));
 
-        students.stream().map(el -> {
-                    el.setName(el.getName().toUpperCase());
-                    return el;
-                })
-                .filter(el -> el.getSex() == 'f').sorted(Comparator.comparing(Student::getAge))
-                .forEach(System.out::println);
+        Map<Boolean, List<Student>> collect = students.stream()
+                .collect(Collectors.partitioningBy(el -> el.getAge() > 20));
+
+        for (Boolean aBoolean : collect.keySet()) {
+            System.out.println(aBoolean);
+
+        }
 
 
     }
