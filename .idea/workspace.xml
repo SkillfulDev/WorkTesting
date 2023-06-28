@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_channing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stream/count.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_collect">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stream/MapEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stream/MapEx.java" afterDir="false" />
     </list>
@@ -179,7 +178,8 @@
       <workItem from="1687414082029" duration="921000" />
       <workItem from="1687499228405" duration="12425000" />
       <workItem from="1687765598880" duration="8657000" />
-      <workItem from="1687851460956" duration="2055000" />
+      <workItem from="1687851460956" duration="2164000" />
+      <workItem from="1687934037187" duration="1461000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -381,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687783490236</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add_collect">
+      <option name="closed" value="true" />
+      <created>1687874039324</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1687874039324</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +407,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add_WildCard" />
     <MESSAGE value="add_List_Method" />
     <MESSAGE value="add_List_Method_addAll" />
     <MESSAGE value="add_List_Method_add" />
@@ -424,7 +431,8 @@
     <MESSAGE value="add_Function" />
     <MESSAGE value="add_reduce" />
     <MESSAGE value="add_chaning" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_chaning" />
+    <MESSAGE value="add_collect" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_collect" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

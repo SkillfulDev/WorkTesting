@@ -16,17 +16,13 @@ public class MapEx {
                         , Student.builder().name("antonny").age(28).sex('m').build()
                         , Student.builder().name("rozy").age(21).sex('f').build()));
 
-        Map<Boolean, List<Student>> collect = students.stream()
-                .collect(Collectors.partitioningBy(el -> el.getAge() > 20));
-
-        for (Boolean aBoolean : collect.keySet()) {
-            System.out.println(aBoolean);
-
-        }
+        List<Integer> list = students.stream().map(Student::getAge).sorted().toList();
+        System.out.println(list);
 
 
     }
 }
+
 @Builder
 @Setter
 @Getter
