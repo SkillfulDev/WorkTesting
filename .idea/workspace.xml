@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_collect">
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_skip">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Exl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/NameAndPriority.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stream/MapEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stream/MapEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,7 @@
       <recent name="org.example.collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapEx">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="FilterEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.stream.FilterEx" />
       <module name="WorkTesting" />
@@ -78,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lambda.LambdaEx" />
+    <configuration name="MapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.stream.MapEx" />
       <module name="WorkTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lambda.*" />
+          <option name="PATTERN" value="org.example.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.stream.MapEx" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Test" />
       <module name="WorkTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.stream.*" />
+          <option name="PATTERN" value="org.example.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.MapEx" />
         <item itemvalue="Application.count" />
         <item itemvalue="Application.FilterEx" />
         <item itemvalue="Application.org.example.lambda.Test" />
-        <item itemvalue="Application.LambdaEx" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +181,8 @@
       <workItem from="1687499228405" duration="12425000" />
       <workItem from="1687765598880" duration="8657000" />
       <workItem from="1687851460956" duration="2164000" />
-      <workItem from="1687934037187" duration="1461000" />
+      <workItem from="1687934037187" duration="6816000" />
+      <workItem from="1688025283657" duration="1281000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -389,7 +392,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687874039324</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add_skip">
+      <option name="closed" value="true" />
+      <created>1687936950406</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1687936950406</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +418,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add_List_Method" />
     <MESSAGE value="add_List_Method_addAll" />
     <MESSAGE value="add_List_Method_add" />
     <MESSAGE value="add_List_Immutable" />
@@ -432,7 +442,8 @@
     <MESSAGE value="add_reduce" />
     <MESSAGE value="add_chaning" />
     <MESSAGE value="add_collect" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_collect" />
+    <MESSAGE value="add_skip" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_skip" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
