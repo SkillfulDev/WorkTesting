@@ -2,7 +2,7 @@ package org.example.multithreading;
 
 
 class Test extends Thread {
-   volatile boolean running = true;
+   volatile boolean running = false;
 
     @Override
     public void run() {
@@ -21,6 +21,7 @@ class Test extends Thread {
         thread.start();
         Thread.sleep(3000);
         thread.running= false;
+        thread.join();
         System.out.println("End main Thread");
 
 

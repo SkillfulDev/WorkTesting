@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_priorityName">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_Volatile">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/multithreading/NameAndPriority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/NameAndPriority.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +180,7 @@
       <workItem from="1687851460956" duration="2164000" />
       <workItem from="1687934037187" duration="6816000" />
       <workItem from="1688025283657" duration="3208000" />
-      <workItem from="1688110749171" duration="1402000" />
+      <workItem from="1688110749171" duration="2273000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -407,7 +406,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688026678737</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add_Volatile">
+      <option name="closed" value="true" />
+      <created>1688122483412</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1688122483412</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +432,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add_List_Method_add" />
     <MESSAGE value="add_List_Immutable" />
     <MESSAGE value="add_List_Iterator" />
     <MESSAGE value="add_Start_Comparable" />
@@ -450,7 +456,8 @@
     <MESSAGE value="add_collect" />
     <MESSAGE value="add_skip" />
     <MESSAGE value="add_priorityName" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_priorityName" />
+    <MESSAGE value="add_Volatile" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_Volatile" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
