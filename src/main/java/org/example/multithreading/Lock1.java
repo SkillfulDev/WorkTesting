@@ -7,8 +7,9 @@ public class Lock1 {
     Lock lock = new ReentrantLock();
 
     public static void main(String[] args) {
-        for (int i = 0; i < 5; i++) {
-            
+        for (char i = 'A'; i < 'J'; i++) {
+
+            System.out.println(i);
         }
     }
 }
