@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_deamon">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Deamon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/ExecutorEx.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_ThreadPool">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Fact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Lock1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Lock1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,7 @@
       <recent name="org.example.collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExecutorEx">
+  <component name="RunManager" selected="Application.Fact">
     <configuration name="Deamon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Deamon" />
       <module name="WorkTesting" />
@@ -106,6 +104,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Fact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Fact" />
+      <module name="WorkTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lock1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Lock1" />
       <module name="WorkTesting" />
@@ -119,26 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Test" />
-      <module name="WorkTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fact" />
         <item itemvalue="Application.ExecutorEx" />
         <item itemvalue="Application.Deamon" />
         <item itemvalue="Application.Lock1" />
         <item itemvalue="Application.Ex10" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +187,9 @@
       <workItem from="1688469983430" duration="2776000" />
       <workItem from="1688554512016" duration="1624000" />
       <workItem from="1688628696835" duration="8158000" />
-      <workItem from="1688973729223" duration="1417000" />
+      <workItem from="1688973729223" duration="4186000" />
+      <workItem from="1689054106099" duration="2311000" />
+      <workItem from="1689062563114" duration="798000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -455,7 +455,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688710213776</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="add_ThreadPool">
+      <option name="closed" value="true" />
+      <created>1688976718716</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1688976718716</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add_Middle_Comparable1" />
     <MESSAGE value="add_BinarySearch" />
     <MESSAGE value="add_FixMain" />
     <MESSAGE value="add_Stack" />
@@ -498,7 +505,8 @@
     <MESSAGE value="add_sync" />
     <MESSAGE value="add_deleteMult" />
     <MESSAGE value="add_deamon" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_deamon" />
+    <MESSAGE value="add_ThreadPool" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_ThreadPool" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
