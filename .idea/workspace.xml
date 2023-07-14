@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_Collable">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/simaphore/Simafore.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_shyncro">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Exchang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Fact.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +64,22 @@
       <recent name="org.example.collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Simafore">
-    <configuration name="Deamon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Deamon" />
+  <component name="RunManager" selected="Application.Exchang (1)">
+    <configuration name="Exchang (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Exchang" />
+      <module name="WorkTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exchang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Exchang" />
       <module name="WorkTesting" />
       <extension name="coverage">
         <pattern>
@@ -105,19 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lock1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Lock1" />
-      <module name="WorkTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Simafore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.multithreading.simaphore.Simafore" />
       <module name="WorkTesting" />
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exchang (1)" />
+        <item itemvalue="Application.Exchang" />
         <item itemvalue="Application.Simafore" />
         <item itemvalue="Application.Fact" />
         <item itemvalue="Application.ExecutorEx" />
-        <item itemvalue="Application.Deamon" />
-        <item itemvalue="Application.Lock1" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +190,9 @@
       <workItem from="1688973729223" duration="4186000" />
       <workItem from="1689054106099" duration="2311000" />
       <workItem from="1689062563114" duration="1524000" />
-      <workItem from="1689145021471" duration="2888000" />
+      <workItem from="1689145021471" duration="4123000" />
+      <workItem from="1689316593225" duration="6445000" />
+      <workItem from="1689330764803" duration="1662000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -473,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689063635327</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="add_shyncro">
+      <option name="closed" value="true" />
+      <created>1689160585709</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1689160585709</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add_FixMain" />
     <MESSAGE value="add_Stack" />
     <MESSAGE value="add_EntrySet" />
     <MESSAGE value="add_TreeMap" />
@@ -516,7 +524,8 @@
     <MESSAGE value="add_deamon" />
     <MESSAGE value="add_ThreadPool" />
     <MESSAGE value="add_Collable" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_Collable" />
+    <MESSAGE value="add_shyncro" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_shyncro" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
