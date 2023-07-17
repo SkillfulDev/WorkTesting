@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_shyncro">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Exchang.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_sezan">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Atomiv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/thread_safe/CollectionSynch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,33 @@
       <recent name="org.example.collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exchang (1)">
+  <component name="RunManager" selected="Application.CollectionSynch">
+    <configuration name="Atomiv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Atomiv" />
+      <module name="WorkTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionSynch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.thread_safe.CollectionSynch" />
+      <module name="WorkTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.multithreading.thread_safe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exchang (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Exchang" />
       <module name="WorkTesting" />
@@ -91,32 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.ExecutorEx" />
-      <module name="WorkTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Fact" />
-      <module name="WorkTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Simafore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.multithreading.simaphore.Simafore" />
       <module name="WorkTesting" />
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionSynch" />
+        <item itemvalue="Application.Atomiv" />
         <item itemvalue="Application.Exchang (1)" />
         <item itemvalue="Application.Exchang" />
         <item itemvalue="Application.Simafore" />
-        <item itemvalue="Application.Fact" />
-        <item itemvalue="Application.ExecutorEx" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +193,8 @@
       <workItem from="1689062563114" duration="1524000" />
       <workItem from="1689145021471" duration="4123000" />
       <workItem from="1689316593225" duration="6445000" />
-      <workItem from="1689330764803" duration="1662000" />
+      <workItem from="1689330764803" duration="2495000" />
+      <workItem from="1689580195812" duration="3685000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -482,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689160585709</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="add_sezan">
+      <option name="closed" value="true" />
+      <created>1689334672932</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1689334672932</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +510,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add_Stack" />
     <MESSAGE value="add_EntrySet" />
     <MESSAGE value="add_TreeMap" />
     <MESSAGE value="add_LinkedHashMap" />
@@ -525,7 +534,8 @@
     <MESSAGE value="add_ThreadPool" />
     <MESSAGE value="add_Collable" />
     <MESSAGE value="add_shyncro" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_shyncro" />
+    <MESSAGE value="add_sezan" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_sezan" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
