@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_sezan">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Atomiv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/thread_safe/CollectionSynch.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_conccurent">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/io/FrWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/io/ReadTry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/multithreading/thread_safe/CollectionSynch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/thread_safe/CollectionSynch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <recent name="org.example.collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CollectionSynch">
+  <component name="RunManager" selected="Application.ReadTry">
     <configuration name="Atomiv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Atomiv" />
       <module name="WorkTesting" />
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exchang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Exchang" />
+    <configuration name="FrWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.io.FrWriter" />
       <module name="WorkTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreading.*" />
+          <option name="PATTERN" value="org.example.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Simafore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.simaphore.Simafore" />
+    <configuration name="ReadTry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.io.ReadTry" />
       <module name="WorkTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreading.simaphore.*" />
+          <option name="PATTERN" value="org.example.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadTry" />
+        <item itemvalue="Application.FrWriter" />
         <item itemvalue="Application.CollectionSynch" />
         <item itemvalue="Application.Atomiv" />
         <item itemvalue="Application.Exchang (1)" />
-        <item itemvalue="Application.Exchang" />
-        <item itemvalue="Application.Simafore" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +195,8 @@
       <workItem from="1689145021471" duration="4123000" />
       <workItem from="1689316593225" duration="6445000" />
       <workItem from="1689330764803" duration="2495000" />
-      <workItem from="1689580195812" duration="3685000" />
+      <workItem from="1689580195812" duration="5510000" />
+      <workItem from="1689659578061" duration="3527000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -492,7 +494,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689334672932</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="add_conccurent">
+      <option name="closed" value="true" />
+      <created>1689593153407</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1689593153407</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add_EntrySet" />
     <MESSAGE value="add_TreeMap" />
     <MESSAGE value="add_LinkedHashMap" />
     <MESSAGE value="add_HashSet" />
@@ -535,7 +544,8 @@
     <MESSAGE value="add_Collable" />
     <MESSAGE value="add_shyncro" />
     <MESSAGE value="add_sezan" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_sezan" />
+    <MESSAGE value="add_conccurent" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_conccurent" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
