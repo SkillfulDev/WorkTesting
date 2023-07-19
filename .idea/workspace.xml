@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_conccurent">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/io/FrWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/io/ReadTry.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_fileWriter">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/io/BuffEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/io/WriteBin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/serializationEx/In.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/serializationEx/Out.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/multithreading/thread_safe/CollectionSynch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/thread_safe/CollectionSynch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/io/ReadTry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/io/ReadTry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,52 +68,39 @@
       <recent name="org.example.collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadTry">
-    <configuration name="Atomiv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Atomiv" />
-      <module name="WorkTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectionSynch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.thread_safe.CollectionSynch" />
-      <module name="WorkTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.multithreading.thread_safe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exchang (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Exchang" />
-      <module name="WorkTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FrWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.io.FrWriter" />
+  <component name="RunManager" selected="Application.In">
+    <configuration name="BuffEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.io.BuffEx" />
       <module name="WorkTesting" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="In" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.serializationEx.In" />
+      <module name="WorkTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.serializationEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Out" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.serializationEx.Out" />
+      <module name="WorkTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.serializationEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WriteBin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.io.WriteBin" />
+      <module name="WorkTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.In" />
+        <item itemvalue="Application.Out" />
+        <item itemvalue="Application.WriteBin" />
+        <item itemvalue="Application.BuffEx" />
         <item itemvalue="Application.ReadTry" />
-        <item itemvalue="Application.FrWriter" />
-        <item itemvalue="Application.CollectionSynch" />
-        <item itemvalue="Application.Atomiv" />
-        <item itemvalue="Application.Exchang (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +198,8 @@
       <workItem from="1689316593225" duration="6445000" />
       <workItem from="1689330764803" duration="2495000" />
       <workItem from="1689580195812" duration="5510000" />
-      <workItem from="1689659578061" duration="3527000" />
+      <workItem from="1689659578061" duration="8063000" />
+      <workItem from="1689752823998" duration="2706000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -502,7 +505,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689593153407</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="add_fileWriter">
+      <option name="closed" value="true" />
+      <created>1689665471817</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1689665471817</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add_TreeMap" />
     <MESSAGE value="add_LinkedHashMap" />
     <MESSAGE value="add_HashSet" />
     <MESSAGE value="add_TreeSet" />
@@ -545,7 +555,8 @@
     <MESSAGE value="add_shyncro" />
     <MESSAGE value="add_sezan" />
     <MESSAGE value="add_conccurent" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_conccurent" />
+    <MESSAGE value="add_fileWriter" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_fileWriter" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
