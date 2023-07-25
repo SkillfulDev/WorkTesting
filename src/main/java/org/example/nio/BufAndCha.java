@@ -3,28 +3,27 @@ package org.example.nio;
 import java.io.*;
 import java.nio.Buffer;
 import java.nio.ByteBuffer;
+import java.nio.channels.Channel;
 import java.nio.channels.FileChannel;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class BufAndCha {
-    public static void main(String[] args) {
-        try (RandomAccessFile file = new RandomAccessFile("some.txt", "rw");
-             FileChannel channel = file.getChannel()) {
-            ByteBuffer buffer = ByteBuffer.allocate(250);
-            StringBuilder builder = new StringBuilder();
-            int byteCounter = channel.read(buffer);
-            System.out.println(byteCounter);
+    String ANSI_GREEN = "\u001B[32m";
+
+    public static void main(String[] args) throws IOException {
+
+        try (RandomAccessFile accessFile = new RandomAccessFile("some.txt", "r");
+             RandomAccessFile accessFile1 = new RandomAccessFile("C:\\Work\\tools" +
+                     "\\TestDirectory\\test1.txt", "rw")) {
+            FileChannel channel = accessFile.getChannel();
+            ByteBuffer buffer = ByteBuffer.allocate(200);
+
+            channel.read(buffer);
             buffer.flip();
-            while (buffer.hasRemaining()) {
-                builder.append((char) buffer.get());
-
-            }
-            System.out.println(builder);
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+            FileChannel channelWrite = accessFile1.getChannel();
+            channelWrite.write(buffer);
         }
-
-
     }
 }
