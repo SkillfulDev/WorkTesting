@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_Channel_Buff">
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_RW">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RegEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/nio/BufAndCha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/nio/BufAndCha.java" afterDir="false" />
     </list>
@@ -67,7 +68,7 @@
       <recent name="org.example.collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BufAndCha">
+  <component name="RunManager" selected="Application.RegEx">
     <configuration name="BufAndCha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.nio.BufAndCha" />
       <module name="WorkTesting" />
@@ -120,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteBin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.io.WriteBin" />
+    <configuration name="RegEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.RegEx" />
       <module name="WorkTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.io.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegEx" />
         <item itemvalue="Application.BufAndCha" />
         <item itemvalue="Application.FileEx" />
         <item itemvalue="Application.In" />
         <item itemvalue="Application.Out" />
-        <item itemvalue="Application.WriteBin" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +203,8 @@
       <workItem from="1689835009166" duration="3075000" />
       <workItem from="1689939799400" duration="115000" />
       <workItem from="1690102274805" duration="6107000" />
-      <workItem from="1690272362755" duration="3966000" />
+      <workItem from="1690272362755" duration="6556000" />
+      <workItem from="1690353481895" duration="5371000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -540,7 +542,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690195829035</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="add_RW">
+      <option name="closed" value="true" />
+      <created>1690288063223</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1690288063223</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +568,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add_NestedClass" />
     <MESSAGE value="add_InnerClass" />
     <MESSAGE value="add_LocalClass" />
     <MESSAGE value="add_Lambda" />
@@ -583,7 +592,8 @@
     <MESSAGE value="add_serializable" />
     <MESSAGE value="add_Channel" />
     <MESSAGE value="add_Channel_Buff" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_Channel_Buff" />
+    <MESSAGE value="add_RW" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_RW" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
