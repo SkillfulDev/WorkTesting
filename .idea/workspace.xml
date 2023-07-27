@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_RW">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RegEx.java" afterDir="false" />
+    <list default="true" id="5194d976-23cd-4e4e-b589-edda17919977" name="Changes" comment="add_regEx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/nio/BufAndCha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/nio/BufAndCha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RegEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RegEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +203,8 @@
       <workItem from="1689939799400" duration="115000" />
       <workItem from="1690102274805" duration="6107000" />
       <workItem from="1690272362755" duration="6556000" />
-      <workItem from="1690353481895" duration="5371000" />
+      <workItem from="1690353481895" duration="7383000" />
+      <workItem from="1690444458622" duration="1759000" />
     </task>
     <task id="LOCAL-00001" summary="add_chanining">
       <created>1684415937980</created>
@@ -550,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690288063223</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="add_regEx">
+      <option name="closed" value="true" />
+      <created>1690366797484</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1690366797484</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,7 +576,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add_InnerClass" />
     <MESSAGE value="add_LocalClass" />
     <MESSAGE value="add_Lambda" />
     <MESSAGE value="add_LambdaNew" />
@@ -593,7 +600,8 @@
     <MESSAGE value="add_Channel" />
     <MESSAGE value="add_Channel_Buff" />
     <MESSAGE value="add_RW" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_RW" />
+    <MESSAGE value="add_regEx" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_regEx" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
