@@ -3,7 +3,7 @@ package org.example.reflection;
 import lombok.*;
 
 @Builder
-//@AllArgsConstructor
+@AllArgsConstructor
 //@NoArgsConstructor
 @Getter
 @Setter
